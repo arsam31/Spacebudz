@@ -1,8 +1,7 @@
 # Spacebudz
 (v1 to v2) &amp; (v2 to v1) both supported.
 
-
-# Local Project Setup
+# Project Setup Guide
 
 ## Requirements
 
@@ -20,19 +19,45 @@ Verify installation:
 ```bash
 node -v
 npm -v
+```
+
+---
 
 # Install Dependencies
 
 Open terminal inside the project folder and run:
-npm install
-npm run build
 
-# Run Project
+```bash
+npm install
+```
+
+---
+
+# Build Project
+
+Generate the production build (`dist` folder):
+
+```bash
+npm run build
+```
+
+---
+
+# Run Project Locally
 
 Start the local server:
+
+```bash
 npm start
+```
+
+---
 
 # Open Application
 
 After the server starts, open:
+
+```txt
 http://localhost:4173
+```
+
